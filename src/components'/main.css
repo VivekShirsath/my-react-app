@@ -2,6 +2,7 @@
 .books{
     display : flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .title{
     text-align: center;
