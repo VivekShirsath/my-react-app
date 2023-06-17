@@ -12,8 +12,8 @@ export const Card = ({id,imageId,title,author,category}) => {
     return(
         <div key = {id} className="card">
         <img src={imageId} className="img"/>
-        <h3>{title}</h3>
-        <h3>{author}</h3>
+        <h3>Name : {title}</h3>
+        <h3>Author :{author}</h3>
         <label htmlFor="category">Move to:</label>
         <select name="category" id="category" onChange={(e) => changeCategory(e)}>
         <option value="Currently Reading" selected = {category === "Currently Reading"}
