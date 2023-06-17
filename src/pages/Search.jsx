@@ -10,6 +10,7 @@ export const Search = () => {
     const handleInput = (e) => {
         setSearch(e.target.value)
     }
+    
     return(
         <div className="flex">
             <div>
